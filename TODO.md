@@ -534,13 +534,16 @@ Display the logged in user profile
 User edit functions:
 Dedicated page or modal for editing user's profile
 Use Profile page and replace all text in user informations with input["text"]
+
 Bonus
 On Category and Warehouse View page/modal, show all products related to the viewed category or warehouse using querySet reverse call (model attribute "related_name") or using product query-params (api/products/?category=8 or api/products/?warehouse=4)
 Can filter (search, via: category or warehouse) and sort (ASC/DESC (Default)) on Products, Categories, and Warehouses
 Display counts in Admin panel using ShadCN Charts components
 Admin panel can view other people's profile from admin panel all users
 Create dedicated page for viewing other users' profile
-Reuse Profile pageSimple Inventory-Tracker
+Reuse Profile page
+
+Simple Inventory-Tracker
 Objectives
 Auth (Register and Login)
 Create dedicated pages for Register and Login or merge them in one page
