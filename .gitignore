@@ -1,0 +1,70 @@
+# Root .gitignore for Django + React project
+
+# Node / frontend
+/front/node_modules/
+/front/dist/
+/front/.turbo/
+/front/.env
+/front/.env.*.local
+/front/.cache/
+/front/npm-debug.log*
+/front/yarn-debug.log*
+/front/pnpm-debug.log*
+
+# Python / backend
+/back/__pycache__/
+/back/*.py[cod]
+/back/*$py.class
+/back/db.sqlite3
+/back/db.sqlite3-journal
+/back/media/
+/back/staticfiles/
+/back/venv/
+/back/pyvenv.cfg
+/back/.env
+/back/.env.*.local
+/back/.pytest_cache/
+/back/.mypy_cache/
+/back/*.log
+/back/local_settings.py
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Built files
+*.log
+*.tmp
+*.temp
+*~
+
+# Python virtual env
+venv/
+__pycache__/
+*.py[cod]
+
+# Optional caches
+.coverage
+coverage/
+htmlcov/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.python-version
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore local environment files
+.env
+.env.*.local
